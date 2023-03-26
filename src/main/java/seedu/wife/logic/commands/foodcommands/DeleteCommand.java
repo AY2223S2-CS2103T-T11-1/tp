@@ -17,7 +17,7 @@ import seedu.wife.model.food.Food;
  */
 public class DeleteCommand extends Command {
 
-    public static final String COMMAND_WORD = "delete";
+    public static final String COMMAND_WORD = "del";
 
     public static final String MESSAGE_USAGE = COMMAND_WORD
             + ": Deletes the food identified by the index number used in the displayed food list.\n"
